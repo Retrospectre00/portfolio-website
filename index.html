@@ -11,234 +11,197 @@
     <title>Lucas Dove</title>
 </head>
 <body>    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Lucas Dove</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active hover-effect" aria-current="page" href="#Home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active hover-effect" aria-current="page" href="#About">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active hover-effect" aria-current="page" href="#Skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active hover-effect" aria-current="page" href="#Projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active hover-effect" aria-current="page" href="#Contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Lucas Dove</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active hover-effect" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hover-effect" aria-current="page" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hover-effect" aria-current="page" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hover-effect" aria-current="page" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hover-effect" aria-current="page" href="#Contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     <div class="row" id="Home">
-        <div class="col-lg-5 col-md-7 fade">
-                <img src="images\Lucas\DSC02495-Edit.jpg" alt="" width="100%">
-        </div>
-        <div class="col-lg-5 col-md-7 fade" id="card">
+        <div class="col-md-6 col-11 fade" id="nameAndProfession">
             <h1>Lucas Dove</h1>
             <h2>Software Engineer</h2>
         </div>
     </div>
     <div class="row" id="About">
-        <div class="col-md-5 fade">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-8 fade">
+          <img src="images\Lucas\DSC02461-Edit.jpg" alt="" width="100%">
+        </div>
+        <div class="col-lg-5 fade">
             <h1>About Me</h1>
             <p>I am a passionate and enthusiastic Tech Talent Accelerator graduate currently looking for an entry point into Software Engineering, where I can further develop my pre-existing programming ability and gain some hands-on work experience. As I am confident, personable and experienced in working with a team - I’d love to be a productive member of a future team as well and would strive to develop a relationship where both my employer and I benefit. My curiosity regarding tech stems from an early interest in video games, along with a lifelong passion for mathematics which made the logical and analytical mindset required for programming come naturally to me.</p>
         </div>
-        <div class="col-lg-3 col-md-5 col-sm-6 col-8 fade">
-            <img src="images\Lucas\DSC02461-Edit.jpg" alt="" width="100%">
-            <div class="row links">
-                <div class="col-4 fade">
-                    <a href="https://github.com/LucasJDove">
-                      <i class="fab fa-github" aria-hidden="true" alt="github"></i>
-                    </a>
+    </div>
+    <div class="row" id="Skills">
+      <h1>Skills</h1>
+      <div class="col-xl-2 col-md-4 col-6 fade">
+        <a class="accordion" data-bs-toggle="collapse" href="#python" aria-expanded="false" aria-controls="javascript">
+          <i class="fab fa-python"></i>
+        </a>
+          <div class="collapse multi-collapse panel-body" id="python">
+            <div class="card card-body bg-dark">
+              Experienced using various data structures and creating subroutines. 
+              Familiar with selection, iteration and sequencing and make frequent use of these constructs.
+            </div>
+          </div>
+      </div>
+      <div class="col-xl-2 col-md-4 col-6 fade">
+        <a class="accordion" data-bs-toggle="collapse" href="#html" aria-expanded="false" aria-controls="html">
+          <i class="fab fa-html5"></i>
+        </a>    
+          <div class="collapse multi-collapse panel-body" id="html">
+            <div class="card card-body bg-dark">
+              Easily able to fill out an HTML page, 
+              along with assigning appropriate classes and IDs to customise elements in said page.
+            </div>
+          </div>
+      </div>
+      <div class="col-xl-2 col-md-4 col-6 fade">
+        <a class="accordion" data-bs-toggle="collapse" href="#css" aria-expanded="false" aria-controls="css">
+            <i class="fab fa-css3-alt"></i>                
+        </a>    
+        <div class="collapse multi-collapse panel-body" id="css">
+            <div class="card card-body bg-dark">
+              lorem ipsum
+            </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-md-4 col-6 fade">
+        <a class="accordion" data-bs-toggle="collapse" href="#bootstrap" aria-expanded="false" aria-controls="bootstrap">
+          <i class="fab fa-bootstrap"></i>
+        </a>    
+          <div class="collapse multi-collapse panel-body" id="bootstrap">
+            <div class="card card-body bg-dark">
+              lorem ipsum
+            </div>
+          </div>
+      </div>
+      <div class="col-xl-2 col-md-4 col-6 fade">
+        <a class="accordion" data-bs-toggle="collapse" href="#git" aria-expanded="false" aria-controls="git">
+            <i class="fab fa-git-alt"></i>                </a>    
+          <div class="collapse multi-collapse panel-body" id="git">
+            <div class="card card-body bg-dark">
+              lorem ipsum
+            </div>
+          </div>
+      </div>
+      <div class="col-xl-2 col-md-4 col-6 fade">
+        <a class="accordion" data-bs-toggle="collapse" href="#javascript" aria-expanded="false" aria-controls="javascript">
+            <i class="fab fa-js-square"></i>                
+          </a>    
+          <div class="collapse multi-collapse panel-body" id="javascript">
+            <div class="card card-body bg-dark">
+              Experienced using various data structures and creating subroutines. 
+              Familiar with selection, iteration and sequencing and make frequent use of these constructs.
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="row" id="Projects">
+      <h1>Projects</h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card mb-3" >
+                <div class="row no-gutters">
+                  <div class="col-md-7">
+                    <img src="images/To do list.PNG" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card-body">
+                      <h5 class="card-title">To-do list</h5>
+                      <p class="card-text">An explanation of my to do list project.</p>
+                      <p class="card-text"><small class="text-muted"></small></p>
+                      <a href="https://lucasjdove.github.io/To-Do-List/" class="btn btn-primary">See it here on github.</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-4 fade">
-                    <a href="https://www.linkedin.com/in/lucas-dove-31bb261ba/">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
-                <div class="col-4 fade">
-                  <a href="LucasJDove@outlook.com">
-                    <i class="fas fa-envelope"></i>
+              </div>                  
+            </div>
+          <div class="carousel-item">
+            <div class="carousel-item active">
+              <div class="card mb-3" >
+                  <div class="row no-gutters">
+                    <div class="col-md-5">
+                      <img src="images/Roguelike.PNG" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <h5 class="card-title">Pygame project</h5>
+                        <p class="card-text">An explanation of my pygame project project.</p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                        <a href="https://replit.com/@LucasDove/portfolio-game" class="btn btn-primary">See it here on replit.</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>                  
+              </div>
+            </div>
+        </div>          
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <footer id="Contact">
+      <div class="contentWrap">
+            <h2 class="footerHeader">Contact</h2>
+        <div class="row" id="contactInfo">
+          <div class="col-4">
+            <div class="row links" id="logos">
+              <div class="col-3 fade">
+                  <a href="https://github.com/LucasJDove">
+                    <i class="fab fa-github"></i>
                   </a>
               </div>
+              <div class="col-3 fade">
+                  <a href="https://www.linkedin.com/in/lucas-dove-31bb261ba/">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+              </div>
+              <div class="col-3 fade">
+                <a href="LucasJDove@outlook.com">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-    </div>
-          <div class="row" id="Skills">
-            <h1>Skills</h1>
-            <div class="col-lg-2 col-sm-4 col-6 fade">
-              <a class="accordion" data-bs-toggle="collapse" href="#python" aria-expanded="false" aria-controls="javascript">
-                <i class="fab fa-python"></i>
-              </a>
-                <div class="collapse multi-collapse panel-body" id="python">
-                  <div class="card card-body bg-dark">
-                    lorem ipsum
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 fade">
-              <a class="accordion" data-bs-toggle="collapse" href="#html" aria-expanded="false" aria-controls="html">
-                <i class="fab fa-html5"></i>
-              </a>    
-                <div class="collapse multi-collapse panel-body" id="html">
-                  <div class="card card-body bg-dark">
-                    lorem ipsum
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 fade">
-              <a class="accordion" data-bs-toggle="collapse" href="#css" aria-expanded="false" aria-controls="css">
-                  <i class="fab fa-css3-alt"></i>                
-              </a>    
-              <div class="collapse multi-collapse panel-body" id="css">
-                  <div class="card card-body bg-dark">
-                    lorem ipsum
-                  </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 fade">
-              <a class="accordion" data-bs-toggle="collapse" href="#bootstrap" aria-expanded="false" aria-controls="bootstrap">
-                <i class="fab fa-bootstrap"></i>
-              </a>    
-                <div class="collapse multi-collapse panel-body" id="bootstrap">
-                  <div class="card card-body bg-dark">
-                    lorem ipsum
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 fade">
-              <a class="accordion" data-bs-toggle="collapse" href="#git" aria-expanded="false" aria-controls="git">
-                  <i class="fab fa-git-alt"></i>                </a>    
-                <div class="collapse multi-collapse panel-body" id="git">
-                  <div class="card card-body bg-dark">
-                    lorem ipsum
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 fade">
-              <a class="accordion" data-bs-toggle="collapse" href="#javascript" aria-expanded="false" aria-controls="javascript">
-                  <i class="fab fa-js-square"></i>                
-                </a>    
-                <div class="collapse multi-collapse panel-body" id="javascript">
-                  <div class="card card-body bg-dark">
-                    lorem ipsum
-                  </div>
-                </div>
-            </div>
-          </div>
-        <div class="row" id="Projects">
-            <h1>Projects</h1>
-            <div id="carouselExampleIndicators" class="row carousel slide fade" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="card mb-3" >
-                        <div class="row no-gutters">
-                          <div class="col-md-6">
-                            <img src="images/Lucas/DSC02503-Edit.jpg" class="card-img" alt="...">
-                          </div>
-                          <div class="col-md-6">
-                            <div class="card-body">
-                              <h5 class="card-title">To-do list</h5>
-                              <p class="card-text">An explanation of my to do list project.</p>
-                              <p class="card-text"><small class="text-muted"></small></p>
-                              <a href="#" class="btn btn-primary">See it here on github.</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>                  
-                    </div>
-                  <div class="carousel-item">
-                    <div class="carousel-item active">
-                      <div class="card mb-3" >
-                          <div class="row no-gutters">
-                            <div class="col-md-6">
-                              <img src="images/Lucas/DSC02503-Edit.jpg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-6">
-                              <div class="card-body">
-                                <h5 class="card-title">Pygame project</h5>
-                                <p class="card-text">An explanation of my pygame project project.</p>
-                                <p class="card-text"><small class="text-muted"></small></p>
-                                <a href="#" class="btn btn-primary">See it here on github.</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>                  
-                      </div>
-                    </div>
-                  <div class="carousel-item">
-                    <div class="carousel-item active">
-                      <div class="card mb-3" >
-                          <div class="row no-gutters">
-                            <div class="col-md-6">
-                              <img src="images/Lucas/DSC02513-Edit.jpg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-6">
-                              <div class="card-body">
-                                <h5 class="card-title">other project</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem animi aut praesentium excepturi nihil? Neque hic quaerat voluptatem expedita eos ipsa, ab aspernatur laboriosam consectetur aperiam. Excepturi praesentium architecto laboriosam?.</p>
-                                <p class="card-text"><small class="text-muted"></small></p>
-                                <a href="#" class="btn btn-primary">See it here on github.</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>                  
-                      </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
-        <footer id="Contact">
-          <div class="contentWrap">
-            <h2 class="footerHeader">Contact</h2>
-            <div class="row" id="contactInfo">
-              <div class="col-4">
-                <div class="row links" id="logos">
-                  <div class="col-2 fade">
-                      <a href="https://github.com/LucasJDove">
-                        <i class="fab fa-github"></i>
-                      </a>
-                  </div>
-                  <div class="col-2 fade">
-                      <a href="https://www.linkedin.com/in/lucas-dove-31bb261ba/">
-                        <i class="fab fa-linkedin"></i>
-                      </a>
-                  </div>
-                  <div class="col-2 fade">
-                    <a href="LucasJDove@outlook.com">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p>
-            <small>© Copyright 2021, Lucas Dove</small>
-          </p>
-        </footer>
+      </div>
+      <p>
+        <small>© Copyright 2021, Lucas Dove</small>
+      </p>
+    </footer>
 
 
         
