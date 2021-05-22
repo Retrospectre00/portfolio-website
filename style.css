@@ -17,7 +17,7 @@ body {
     }
 }
 
-p, h1, h2, img, .fab, .fas {
+p, h1, h2, h3, img, .fab, .fas {
     filter: drop-shadow(2px 2px 2px #000000);
 }
 
