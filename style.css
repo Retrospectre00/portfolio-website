@@ -1,5 +1,6 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
+
     background-color: rgba(24,0,70,1);
     color: white;
     text-align: center;
@@ -60,11 +61,11 @@ h1 {
 }
 
 .links .fab, .links .fas {
-    font-size: 4vw;
+    font-size: 50px;
 }
 
 .fab, .fas {
-    font-size: 175px;
+    font-size: 150px;
     color: white;
 }
 .fab:hover, .fas:hover {
