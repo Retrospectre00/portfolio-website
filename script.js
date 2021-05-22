@@ -3,9 +3,9 @@ $(window).on("load",function() {
       var windowBottom = $(this).scrollTop() + $(this).innerHeight();
       $(".fade").each(function() {
         /* Check the location of each desired element */
-        var objectBottom = $(this).offset().top + $(this).outerHeight();
+        var objectBottom = $(this).offset().top;
         /* If the element is completely within bounds of the window, fade it in */
-        if (objectBottom - 200 < windowBottom) { //object comes into view (scrolling down)
+        if (objectBottom +100 < windowBottom) { //object comes into view (scrolling down)
           if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
         }
       });
