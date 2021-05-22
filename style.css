@@ -1,7 +1,7 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
-
-    background-color: rgba(24,0,70,1);
+    width: 100%;
+    background: rgba(24,0,70,1);
     color: white;
     text-align: center;
     overflow-x: hidden;
@@ -17,7 +17,7 @@ body {
     }
 }
 
-p, h1, h2, img, .fab {
+p, h1, h2, img, .fab, .fas {
     filter: drop-shadow(2px 2px 2px #000000);
 }
 
@@ -73,6 +73,8 @@ h1 {
 }
 
 .row {  
+    padding: 0px;
+    margin: 0px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
