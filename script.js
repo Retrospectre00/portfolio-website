@@ -6,7 +6,7 @@ $(window).on("load",function() {
         var objectBottom = $(this).offset().top;
         /* If the element is completely within bounds of the window, fade it in */
         if (objectBottom + 50 < windowBottom) { //object comes into view (scrolling down)
-          if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
+          if ($(this).css("opacity")==0) {$(this).fadeTo(10000,1);}
         }
       });
     }).scroll(); //invoke scroll-handler on page-load
